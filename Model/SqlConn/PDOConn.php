@@ -31,19 +31,3 @@ class PDOConn
     }
 }
 
-/**
- * Class PDO测试连接类
- * @package project_weibo\Project\MysqlConn
- */
-/*class test
-{
-    public function test(){
-        $con = PDOConn::getInstance('mysql:host=127.0.0.1;dbname=trans', 'root', '');
-        $re = $con->prepare('select * from goods');
-        $re->execute();
-        var_dump($re->fetchAll(\PDO::FETCH_ASSOC));
-    }
-}
-
-$re = new test();
-$re->test();*/

@@ -41,16 +41,4 @@ class MySQLiConn
     }
 }
 
-/**
- * Class mysql测试类，检测是否连接成功
- * @package project_weibo\Project\MysqlConn
- */
-/*class test
-{
-    public static function fetch(){
-        $con = MySQLiConn::getInstance('127.0.0.1', 'root', '', 'trans', 3306);
-        $res = $con->query('select * from goods');
-        var_dump($res->fetch_all());
-    }
-}
-$test = test::fetch();*/
+
