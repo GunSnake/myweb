@@ -11,7 +11,7 @@ namespace Model;
 require_once __DIR__ . '/SqlConn/PDOConn.php';
 require_once __DIR__ . '/SqlConn/MySQLiConn.php';
 
-use Model\SqlConn\PDOConn;
+//use Model\SqlConn\PDOConn;
 use Model\SqlConn\MySQLiConn;
 
 class Connection
@@ -158,8 +158,5 @@ class Connection
     }
 }
 
-/*$db = new Connection();
-var_dump($db->query_all('select * from user where id = ?',[3]));
-var_dump($db->query_one('select * from user'));*/
 
 
