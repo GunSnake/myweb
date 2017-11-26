@@ -17,3 +17,6 @@ $app->addRouter('/user/namer', function(){
 });
 $app->dispatch('user/namer');
 
+$token = new \Model\Token('check');
+$tk = $token->getToken();
+$ck_res = $token->vToken($tk);
