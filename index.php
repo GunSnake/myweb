@@ -19,4 +19,4 @@ $app->dispatch('user/namer');
 
 $token = new \Model\Token('check');
 $tk = $token->getToken();
-$ck_res = $token->vToken($tk);
+$ck_res = $token->verifyToken($tk);
